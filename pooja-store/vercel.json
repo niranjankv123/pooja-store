@@ -4,14 +4,6 @@
         {
             "source": "/api/(.*)",
             "destination": "/apps/server/index.ts"
-        },
-        {
-            "source": "/(.*)\\.(.*)",
-            "destination": "/apps/client/dist/$1.$2"
-        },
-        {
-            "source": "/(.*)",
-            "destination": "/apps/client/dist/index.html"
         }
     ],
     "functions": {

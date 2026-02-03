@@ -4,6 +4,11 @@
     "scripts": {
         "build": "cd apps/client && npm install && npm run build"
     },
+    "dependencies": {
+        "hono": "latest",
+        "@hono/node-server": "^1.13.7",
+        "tsx": "^4.19.2"
+    },
     "engines": {
         "node": ">=18"
     }
