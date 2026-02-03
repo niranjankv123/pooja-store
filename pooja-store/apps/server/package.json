@@ -4,13 +4,16 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "bun run index.ts"
+    "start": "tsx index.ts",
+    "dev": "tsx watch index.ts"
   },
   "dependencies": {
-    "hono": "latest"
+    "hono": "latest",
+    "@hono/node-server": "^1.13.7",
+    "tsx": "^4.19.2"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/node": "^22.10.1"
   },
   "peerDependencies": {
     "typescript": "^5"
